@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kegiatan"
+            android:icon="@drawable/ic_baseline_local_activity_24"
+            android:title="@string/menu_kegiatan" />
+        <item
+            android:id="@+id/nav_pengantar"
+            android:icon="@drawable/ic_baseline_content"
+            android:title="@string/menu_pengantar" />
+        <item
+            android:id="@+id/nav_2022"
+            android:icon="@drawable/ic_baseline_money"
+            android:title="@string/menu_iuran" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_baseline_info"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/menu_keluar" />
+    </group>
+</menu>
